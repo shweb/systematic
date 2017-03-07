@@ -1,0 +1,53 @@
+.row{
+margin-left: 30px; 
+padding: 5px;
+font-size: small; 
+font-family: "Tahoma", Arial, sans-serif;
+ text-align: left;
+margin-top:10px
+
+}
+
+#socialicons {
+    text-align: right;
+    padding:0px;
+    margin-right: 100px; 
+}
+#socialicons .icon{
+    background: black;
+    display: inline-block;
+    color: white;
+    margin-top:10px
+    
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    line-height: 34px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 2px 8px;
+    -webkit-border-radius: 17px; 
+    -moz-border-radius: 17px; 
+    border-radius: 17px; 
+}
+#socialicons .icon:hover{
+    background: HOVER_COLOR;
+}
+
+.pull{
+margin-left: 100px; 
+
+}
+
+.featurette-heading {
+ font-size: 45px;
+}
+
+.lead {
+ font-size: 15px;
+}
+
+.a
+ {
+ margin-right:35px;
+}
