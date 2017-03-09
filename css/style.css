@@ -1,17 +1,70 @@
+.navbar-custom{
+background-color:#A5260A;
+}
+nav li + li::before {
+	content: "|";
+	float: left;
+	width: 2px;
+	line-height: 50px;
+        text-color:white;
+	margin-right:10px
+}
+
+
+#custom-search-input {
+        margin:0;
+        margin-top: 10px;
+        padding: 0;
+    }
+ 
+    #custom-search-input .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    #custom-search-input button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        color:#D9230F;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }
+
+
 .row{
-margin-left: 30px; 
+margin-left: 25px; 
 padding: 5px;
 font-size: small; 
-font-family: "Tahoma", Arial, sans-serif;
+font-family:" Arial", Helvetica, sans-serif
  text-align: left;
-margin-top:10px
+margin-top:0px
 
 }
 
 #socialicons {
     text-align: right;
     padding:0px;
-    margin-right: 100px; 
+    margin-right: 120px; 
 }
 #socialicons .icon{
     background: black;
@@ -51,3 +104,88 @@ margin-left: 100px;
  {
  margin-right:35px;
 }
+
+.p{
+ font-size: 15px;
+text-align: center;
+}
+
+.texte-illustration {
+    overflow: hidden;
+   
+}
+.texte-illustration .illus-gauche {
+    float: left;
+    margin: 5px 20px 5px 0;
+margin-right:10px
+}
+.texte-illustration .illus-droite {
+    float: right;
+    margin: 5px 0 5px 20px;
+     margin-left:30px
+}
+.texte-illustration p {
+    overflow: hidden; 
+}
+.lien  
+{
+text-align:right;
+font-size:15px;
+color:red;
+}
+
+.a
+{
+color: red;
+
+}
+.view  {
+text-align:right;
+margin-right:20px;
+font-size:10px;
+
+}
+
+#a {
+    text-align: right;
+    margin-right: 100px;
+} 
+
+.links {
+text-decoration:underline;
+
+} 
+
+.span{
+text-decoration:underline;
+}
+.sr-only {
+padding-top: 10px
+}
+
+
+#message{
+     font-size: 30px;
+     line-height: 2;
+     padding:20px; box-sizing:border-box;
+     padding:5px; box-sizing:border-box;
+     outline-style: none;
+} 
+
+
+.footer {
+margin-left: 100px;
+font-size:10px;
+}
+
+.illus {
+text-align: right;
+font-size:10px;
+}
+
+.contact-us textarea{
+
+ border: 1px solid;
+    border-radius: 10px;;
+}
+
