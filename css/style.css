@@ -1,13 +1,18 @@
-.navbar-custom{
-background-color:#A5260A;
+.body{
+    font-family: georgia;
 }
+.navbar-custom{
+background-color:#ba2e1f;
+}
+
 nav li + li::before {
-	content: "|";
-	float: left;
-	width: 2px;
-	line-height: 50px;
-        text-color:white;
-	margin-right:10px
+    content: "|";
+    float: left;
+    content: white;
+    width: 2px;
+    line-height: 50px;
+    text-color: #ba2e1f;
+    margin-right:1px
 }
 
 
@@ -50,27 +55,17 @@ nav li + li::before {
         z-index: 3;   
     }
 
-
-.row{
-margin-left: 25px; 
-padding: 5px;
-font-size: small; 
-font-family:" Arial", Helvetica, sans-serif
- text-align: left;
-margin-top:0px
-
-}
-
 #socialicons {
     text-align: right;
     padding:0px;
-    margin-right: 120px; 
+    margin-right: 25px;
+   
 }
 #socialicons .icon{
     background: black;
     display: inline-block;
     color: white;
-    margin-top:10px
+    margin-top:25px
     
     font-size: 15px;
     width: 30px;
@@ -87,31 +82,34 @@ margin-top:0px
     background: HOVER_COLOR;
 }
 
-.pull{
-margin-left: 100px; 
-
+#{
+  color:red;  
 }
 
-.featurette-heading {
- font-size: 45px;
+.icon-bar{
+    background-color: black;
+    position: relative;
 }
-
-.lead {
- font-size: 15px;
+.navbar-center{
+margin-left: 25px;
+padding-top: 25px;
 }
-
-.a
- {
- margin-right:35px;
+.presentation{
+    margin-right: 15px;
+    font-size: 75px;
+    margin-top: 100px;
+    font-family: georgia;
 }
+.reading  {
+    text-align:right;
+    margin-right:1px;
+    font-size:20px;
 
-.p{
- font-size: 15px;
-text-align: center;
 }
 
 .texte-illustration {
     overflow: hidden;
+    margin-left: 15px;
    
 }
 .texte-illustration .illus-gauche {
@@ -127,65 +125,112 @@ margin-right:10px
 .texte-illustration p {
     overflow: hidden; 
 }
-.lien  
-{
-text-align:right;
-font-size:15px;
-color:red;
+.post{
+    background:#f2f2f2;
+    padding:25px;
+    margin-right:15px;
+    width:100%;
+    margin-bottom:10px;
+    padding-top:15px;
+    font-family: georgia;
 }
 
-.a
-{
-color: red;
+.hr{
+  background:#f2f2f2;
+}
+.img{
+    padding-top: 15px;
+}
+.h4{
+    font-size:20px;
+    font-family: georgia;
+    padding-top:25px;
+    padding-bottom:25px;
+    text-align: left;
 
 }
-.view  {
-text-align:right;
-margin-right:20px;
-font-size:10px;
+.p{
+    font-family: georgia;
+}
+.lead{
+    font-family: georgia;
+}
+.section3{
+    font-family: georgia;
+    padding:15px
 
 }
 
-#a {
+.view{
     text-align: right;
-    margin-right: 100px;
-} 
 
-.links {
-text-decoration:underline;
-
-} 
-
-.span{
-text-decoration:underline;
-}
-.sr-only {
-padding-top: 10px
 }
 
-
-#message{
-     font-size: 30px;
-     line-height: 2;
-     padding:20px; box-sizing:border-box;
-     padding:5px; box-sizing:border-box;
-     outline-style: none;
-} 
-
-
-.footer {
-margin-left: 100px;
-font-size:10px;
+.read {
+color:#ba2e1f;
 }
 
-.illus {
-text-align: right;
-font-size:10px;
+.links{
+    padding-top: -15px;
 }
 
-.contact-us textarea{
-
- border: 1px solid;
-    border-radius: 10px;;
+.link{
+    padding:-25px;
+    color: #383f3f;
+}
+.free{
+    padding-bottom:25px;
+    text-align: left;
+    padding-top: 25px;
+}
+.espacement_important{
+    margin:0px ;
+    color: black;
+    border-bottom:2px solid #f2f2f2 ;
+    padding-bottom:10px;
+}
+.admin{
+    padding:-10px;
 }
 
+.contact-us 
+input[type=textarea] {
+     padding:40px 5px; 
+    background:#f2f2f2; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom:15px;
+    text-align: left;
+
+}
+input[type=text] {
+    padding:5px; 
+    border:0 solid #f2f2f2; 
+    -webkit-border-radius: 5px;background:#f2f2f2; 
+    border-radius: 5px;
+    margin-bottom:10px;
+}
+
+input[type=text]:focus {
+    border-color:#f2f2f2;
+    margin-bottom:15px; 
+}
+
+input[type=submit] {
+    padding:10px 15px; 
+    background:#f2f2f2; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    margin-bottom:20px;
+    color:#ba2e1f;
+
+}
+
+.footer{
+    background:#f2f2f2;
+  
+}
