@@ -57,8 +57,8 @@ nav li + li::before {
 
 #socialicons {
     text-align: right;
-    padding:0px;
-    margin-right: 25px;
+    padding:30px;
+    margin-right: 10px;
    
 }
 #socialicons .icon{
@@ -93,6 +93,7 @@ nav li + li::before {
 .navbar-center{
 margin-left: 25px;
 padding-top: 25px;
+color:#ba2e1f;
 }
 .presentation{
     margin-right: 15px;
